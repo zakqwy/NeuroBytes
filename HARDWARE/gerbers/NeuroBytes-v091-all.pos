@@ -1,0 +1,34 @@
+### Module positions - created on Wed 22 Jun 2016 06:39:39 PM CDT ###
+### Printed by Pcbnew version kicad 4.0.2-4+6225~38~ubuntu14.04.1-stable
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                Package                                 PosX       PosY       Rot  Side
+C1        10 uF              ZF_SMD_pol_1206                      28.9900     6.9000  270.0000  bottom
+C2        100 nF             ZF_SMD_NonPol_0402                   26.3900    10.4500  225.0000  bottom
+C3        1 uF               ZF_SMD_NonPol_0603                   24.5000    21.0000  270.0000  bottom
+C4        100 nF             ZF_SMD_NonPol_0402                   20.0400    14.9000   45.0000  bottom
+C5        2.2 uF             ZF_SMD_NonPol_0603                   26.7500    18.0000    0.0000  bottom
+D1        RGB LED CA         ZF_LED_RGB_SunLED_XZMDKCBDDG45S-9    13.8400    12.5500    0.0000  bottom
+D2        D_Schottky         ZF_SMD_pol_SC79                      24.5000    17.8000   90.0000  bottom
+IC1       LD2980ABM50TR      ZF_SOT23-5L                          26.7500    20.7500    0.0000  bottom
+IC2       ATTINY88-MM        ZF_IC_VQFN28-045                     23.1900    12.5500   45.0000  bottom
+P1        JST GH 4-position  ZF_CONN_JST_GH                       20.1500     3.1000  302.3000  bottom
+P2        JST GH 4-position  ZF_CONN_JST_GH                        6.1671     3.1000  229.5000  bottom
+P3        JST GH 4-position  ZF_CONN_JST_GH                        1.8500    12.5000  180.0000  bottom
+P4        JST GH 4-position  ZF_CONN_JST_GH                        6.2500    25.1000  121.9000  bottom
+P5        JST GH 4-position  ZF_CONN_JST_GH                       17.8000    22.4500   70.0000  bottom
+P28       JST GH 4-position  ZF_CONN_JST_GH                       51.1500     8.9000  313.5000  bottom
+P29       JST GH 4-position  ZF_CONN_JST_GH                       51.1500    18.9500   46.5000  bottom
+R1        150                ZF_SMD_NonPol_0402                    9.8500    12.6500  270.0000  bottom
+R2        100                ZF_SMD_NonPol_0402                   11.5400    10.6000    0.0000  bottom
+R3        100                ZF_SMD_NonPol_0402                   16.7400    10.6000    0.0000  bottom
+R4        10k                ZF_SMD_NonPol_0402                   15.3400    19.1500  160.0000  bottom
+R5        10k                ZF_SMD_NonPol_0402                   17.5400    18.3500  160.0000  bottom
+R6        10k                ZF_SMD_NonPol_0402                   37.1000    15.7000  270.0000  bottom
+R7        10k                ZF_SMD_NonPol_0402                   27.0400     9.8000   45.0000  bottom
+R8        10k                ZF_SMD_NonPol_0402                   38.6000    15.7000  270.0000  bottom
+RP1       10k (x4)           ZF_RN_4iso_CTS-0804                  12.7400     4.8000   90.0000  bottom
+RP2       10k (x4)           ZF_RN_4iso_CTS-0804                   6.4400    19.3000    0.0000  bottom
+SW1       SW_PUSH            ZF_SW_Momentary_KSEM31J              33.2500    19.7500    0.0000  bottom
+SW2       SW_PUSH            ZF_SW_Momentary_KSEM31J              42.5000    19.7500    0.0000  bottom
+## End

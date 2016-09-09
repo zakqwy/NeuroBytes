@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name NeuroBytes-v09)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
+  (lib (name NeuroBytes-v091)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
+)

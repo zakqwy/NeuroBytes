@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/zach/Documents/NeuroTinker/NeuroBytes-v091/HARDWARE/NeuroBytes-v091.sch</source>
+    <date>Thu 16 Jun 2016 06:22:55 PM CDT</date>
+    <tool>Eeschema 4.0.2-4+6225~38~ubuntu14.04.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>NeuroBytes-v091.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC2">
+      <value>ATTINY88-MM</value>
+      <footprint>KiCad_Footprints:ZF_IC_VQFN28-045</footprint>
+      <fields>
+        <field name="Mfr">Atmel</field>
+        <field name="Mfr Part #">ATTINY88-MMHR</field>
+        <field name="Package">28-VQFN (4x4)</field>
+        <field name="Link">https://www.digikey.com/product-search/en?keywords=ATTINY88-MMHR-ND</field>
+        <field name="Subs Allowed">No</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="atmel" part="ATTINY88-MM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A3728</tstamp>
+    </comp>
+    <comp ref="TP24">
+      <value>Test Point</value>
+      <footprint>KiCad_Footprints:ZF_CONN_1-2_pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A3783</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100 nF</value>
+      <footprint>KiCad_Footprints:ZF_SMD_NonPol_0402</footprint>
+      <fields>
+        <field name="Mfr">Taiyo Yuden</field>
+        <field name="Mfr Part #">LMK105BJ104KV-F</field>
+        <field name="Package">0402</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/taiyo-yuden/LMK105BJ104KV-F/587-1227-2-ND/930579</field>
+        <field name="Subs Allowed">Yes</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A3893</tstamp>
+    </comp>
+    <comp ref="TP21">
+      <value>Test Point</value>
+      <footprint>KiCad_Footprints:ZF_CONN_1-2_pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A3A58</tstamp>
+    </comp>
+    <comp ref="TP22">
+      <value>Test Point</value>
+      <footprint>KiCad_Footprints:ZF_CONN_1-2_pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A3BC6</tstamp>
+    </comp>
+    <comp ref="TP23">
+      <value>Test Point</value>
+      <footprint>KiCad_Footprints:ZF_CONN_1-2_pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A3CA0</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>JST GH 4-position</value>
+      <footprint>KiCad_Footprints:ZF_CONN_JST_GH</footprint>
+      <fields>
+        <field name="Mfr">JST</field>
+        <field name="Mfr Part #">SM04B-GHS-TB(LF)(SN)-</field>
+        <field name="Package">JST GH</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/jst-sales-america-inc/SM04B-GHS-TB(LF)(SN)-/455-1566-2-ND/807788</field>
+        <field name="Subs Allowed">No</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A41B9</tstamp>
+    </comp>
+    <comp ref="RP1">
+      <value>10k (x4)</value>
+      <footprint>KiCad_Footprints:ZF_RN_4iso_CTS-0804</footprint>
+      <fields>
+        <field name="Mfr">CTS Resistor Products</field>
+        <field name="Mfr Part #">741C083103JP</field>
+        <field name="Package">0804</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/cts-resistor-products/741C083103JP/741C083103JPCT-ND/1124652</field>
+        <field name="Subs Allowed">Yes</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="device" part="R_PACK4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A4293</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>JST GH 4-position</value>
+      <footprint>KiCad_Footprints:ZF_CONN_JST_GH</footprint>
+      <fields>
+        <field name="Mfr">JST</field>
+        <field name="Mfr Part #">SM04B-GHS-TB(LF)(SN)-</field>
+        <field name="Package">JST GH</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/jst-sales-america-inc/SM04B-GHS-TB(LF)(SN)-/455-1566-2-ND/807788</field>
+        <field name="Subs Allowed">No</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A4555</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>JST GH 4-position</value>
+      <footprint>KiCad_Footprints:ZF_CONN_JST_GH</footprint>
+      <fields>
+        <field name="Mfr">JST</field>
+        <field name="Mfr Part #">SM04B-GHS-TB(LF)(SN)-</field>
+        <field name="Package">JST GH</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/jst-sales-america-inc/SM04B-GHS-TB(LF)(SN)-/455-1566-2-ND/807788</field>
+        <field name="Subs Allowed">No</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A4E67</tstamp>
+    </comp>
+    <comp ref="RP2">
+      <value>10k (x4)</value>
+      <footprint>KiCad_Footprints:ZF_RN_4iso_CTS-0804</footprint>
+      <fields>
+        <field name="Mfr">CTS Resistor Products</field>
+        <field name="Mfr Part #">741C083103JP</field>
+        <field name="Package">0804</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/cts-resistor-products/741C083103JP/741C083103JPCT-ND/1124652</field>
+        <field name="Subs Allowed">Yes</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="device" part="R_PACK4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A4E6D</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>JST GH 4-position</value>
+      <footprint>KiCad_Footprints:ZF_CONN_JST_GH</footprint>
+      <fields>
+        <field name="Mfr">JST</field>
+        <field name="Mfr Part #">SM04B-GHS-TB(LF)(SN)-</field>
+        <field name="Package">JST GH</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/jst-sales-america-inc/SM04B-GHS-TB(LF)(SN)-/455-1566-2-ND/807788</field>
+        <field name="Subs Allowed">No</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A4E84</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>JST GH 4-position</value>
+      <footprint>KiCad_Footprints:ZF_CONN_JST_GH</footprint>
+      <fields>
+        <field name="Mfr">JST</field>
+        <field name="Mfr Part #">SM04B-GHS-TB(LF)(SN)-</field>
+        <field name="Package">JST GH</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/jst-sales-america-inc/SM04B-GHS-TB(LF)(SN)-/455-1566-2-ND/807788</field>
+        <field name="Subs Allowed">No</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A5620</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH</value>
+      <footprint>KiCad_Footprints:ZF_SW_Momentary_KSEM31J</footprint>
+      <fields>
+        <field name="Mfr">C&amp;K Components</field>
+        <field name="Mfr Part #">KSEM31J LFS</field>
+        <field name="Package">J Lead</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/c-k-components/KSEM31J-LFS/CKN10425TR-ND/3487184</field>
+        <field name="Subs Allowed">No</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A5E97</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>RGB LED CA</value>
+      <footprint>KiCad_Footprints:ZF_LED_RGB_SunLED_XZMDKCBDDG45S-9</footprint>
+      <fields>
+        <field name="Mfr">SunLED</field>
+        <field name="Mfr Part #">XZMDKCBDDG45S-9</field>
+        <field name="Package">4-PLCC, bottom mtg</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/sunled/XZMDKCBDDG45S-9/1497-1257-1-ND/5169746</field>
+        <field name="Subs Allowed">No</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="device" part="LED_RABG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A629C</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>150</value>
+      <footprint>KiCad_Footprints:ZF_SMD_NonPol_0402</footprint>
+      <fields>
+        <field name="Mfr">Yageo</field>
+        <field name="Mfr Part #">RC0402FR-07150RL</field>
+        <field name="Package">0402</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0402FR-07150RL/311-150LRCT-ND/729490</field>
+        <field name="Subs Allowed">Yes</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A6305</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100</value>
+      <footprint>KiCad_Footprints:ZF_SMD_NonPol_0402</footprint>
+      <fields>
+        <field name="Mfr">Yageo</field>
+        <field name="Mfr Part #">RC0402FR-07100RP</field>
+        <field name="Package">0402</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0402FR-07100RP/YAG1248CT-ND/4935363</field>
+        <field name="Subs Allowed">Yes</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A638D</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <footprint>KiCad_Footprints:ZF_SMD_NonPol_0402</footprint>
+      <fields>
+        <field name="Mfr">Yageo</field>
+        <field name="Mfr Part #">RC0402FR-07100RP</field>
+        <field name="Package">0402</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0402FR-07100RP/YAG1248CT-ND/4935363</field>
+        <field name="Subs Allowed">Yes</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A63CC</tstamp>
+    </comp>
+    <comp ref="P28">
+      <value>JST GH 4-position</value>
+      <footprint>KiCad_Footprints:ZF_CONN_JST_GH</footprint>
+      <fields>
+        <field name="Mfr">JST</field>
+        <field name="Mfr Part #">SM04B-GHS-TB(LF)(SN)-</field>
+        <field name="Package">JST GH</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/jst-sales-america-inc/SM04B-GHS-TB(LF)(SN)-/455-1566-2-ND/807788</field>
+        <field name="Subs Allowed">No</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A692B</tstamp>
+    </comp>
+    <comp ref="P29">
+      <value>JST GH 4-position</value>
+      <footprint>KiCad_Footprints:ZF_CONN_JST_GH</footprint>
+      <fields>
+        <field name="Mfr">JST</field>
+        <field name="Mfr Part #">SM04B-GHS-TB(LF)(SN)-</field>
+        <field name="Package">JST GH</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/jst-sales-america-inc/SM04B-GHS-TB(LF)(SN)-/455-1566-2-ND/807788</field>
+        <field name="Subs Allowed">No</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A6A38</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>LD2980ABM50TR</value>
+      <footprint>KiCad_Footprints:ZF_SOT23-5L</footprint>
+      <fields>
+        <field name="Mfr">STMicroelectronics</field>
+        <field name="Mfr Part #">LD2980ABM50TR</field>
+        <field name="Package">SOT-23-5</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/stmicroelectronics/LD2980ABM50TR/497-1518-2-ND/591619</field>
+        <field name="Subs Allowed">No</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="ZF" part="LD2980"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A73C9</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1 uF</value>
+      <footprint>KiCad_Footprints:ZF_SMD_NonPol_0603</footprint>
+      <fields>
+        <field name="Mfr">Taiyo Yuden</field>
+        <field name="Mfr Part #">LMK107B7105KA-T</field>
+        <field name="Package">0603</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107B7105KA-T/587-1242-2-ND/930594</field>
+        <field name="Subs Allowed">Yes</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A78A0</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>2.2 uF</value>
+      <footprint>KiCad_Footprints:ZF_SMD_NonPol_0603</footprint>
+      <fields>
+        <field name="Mfr">Taiyo Yuden</field>
+        <field name="Mfr Part #">LMK107BJ225KA-T</field>
+        <field name="Package">0603</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BJ225KA-T/587-1253-2-ND/930605</field>
+        <field name="Subs Allowed">Yes</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A7911</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>Test Point</value>
+      <footprint>KiCad_Footprints:ZF_CONN_1-2_pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A894E</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>Test Point</value>
+      <footprint>KiCad_Footprints:ZF_CONN_1-2_pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A8A68</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>Test Point</value>
+      <footprint>KiCad_Footprints:ZF_CONN_1-2_pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A8B67</tstamp>
+    </comp>
+    <comp ref="TP9">
+      <value>Test Point</value>
+      <footprint>KiCad_Footprints:ZF_CONN_1-2_pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A8B6D</tstamp>
+    </comp>
+    <comp ref="TP10">
+      <value>Test Point</value>
+      <footprint>KiCad_Footprints:ZF_CONN_1-2_pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A8C4F</tstamp>
+    </comp>
+    <comp ref="TP11">
+      <value>Test Point</value>
+      <footprint>KiCad_Footprints:ZF_CONN_1-2_pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A8C55</tstamp>
+    </comp>
+    <comp ref="TP12">
+      <value>Test Point</value>
+      <footprint>KiCad_Footprints:ZF_CONN_1-2_pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A8C5B</tstamp>
+    </comp>
+    <comp ref="TP13">
+      <value>Test Point</value>
+      <footprint>KiCad_Footprints:ZF_CONN_1-2_pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A8C61</tstamp>
+    </comp>
+    <comp ref="TP14">
+      <value>Test Point</value>
+      <footprint>KiCad_Footprints:ZF_CONN_1-2_pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A8EBB</tstamp>
+    </comp>
+    <comp ref="TP15">
+      <value>Test Point</value>
+      <footprint>KiCad_Footprints:ZF_CONN_1-2_pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A8EC1</tstamp>
+    </comp>
+    <comp ref="TP16">
+      <value>Test Point</value>
+      <footprint>KiCad_Footprints:ZF_CONN_1-2_pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A8EC7</tstamp>
+    </comp>
+    <comp ref="TP17">
+      <value>Test Point</value>
+      <footprint>KiCad_Footprints:ZF_CONN_1-2_pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A8ECD</tstamp>
+    </comp>
+    <comp ref="TP18">
+      <value>Test Point</value>
+      <footprint>KiCad_Footprints:ZF_CONN_1-2_pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A8ED3</tstamp>
+    </comp>
+    <comp ref="TP19">
+      <value>Test Point</value>
+      <footprint>KiCad_Footprints:ZF_CONN_1-2_pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572A8ED9</tstamp>
+    </comp>
+    <comp ref="TP25">
+      <value>Test Point</value>
+      <footprint>KiCad_Footprints:ZF_CONN_1-2_pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572AAF87</tstamp>
+    </comp>
+    <comp ref="TP20">
+      <value>Test Point</value>
+      <footprint>KiCad_Footprints:ZF_CONN_1-2_pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572AB417</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100 nF</value>
+      <footprint>KiCad_Footprints:ZF_SMD_NonPol_0402</footprint>
+      <fields>
+        <field name="Mfr">Taiyo Yuden</field>
+        <field name="Mfr Part #">LMK105BJ104KV-F</field>
+        <field name="Package">0402</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/taiyo-yuden/LMK105BJ104KV-F/587-1227-2-ND/930579</field>
+        <field name="Subs Allowed">Yes</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572D2EFC</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10 uF</value>
+      <footprint>KiCad_Footprints:ZF_SMD_pol_1206</footprint>
+      <fields>
+        <field name="Mfr">Kemet</field>
+        <field name="Mfr Part #">T491A106K010AT</field>
+        <field name="Package">1206</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/kemet/T491A106K010AT/399-3684-2-ND/818545</field>
+        <field name="Subs Allowed">Yes</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572D323D</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D_Schottky</value>
+      <footprint>KiCad_Footprints:ZF_SMD_pol_SC79</footprint>
+      <fields>
+        <field name="Mfr">Panasonic Electric Components</field>
+        <field name="Mfr Part #">DB2S30800L</field>
+        <field name="Package">SC-79</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/panasonic-electronic-components/DB2S30800L/DB2S30800LTR-ND/2325946</field>
+        <field name="Subs Allowed">Yes</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>572E227F</tstamp>
+    </comp>
+    <comp ref="TP26">
+      <value>Test Point</value>
+      <footprint>KiCad_Footprints:ZF_CONN_1-2_pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57321D51</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>KiCad_Footprints:ZF_SMD_NonPol_0402</footprint>
+      <fields>
+        <field name="Mfr">Yageo</field>
+        <field name="Mfr Part #">RC0402FR-0710KL</field>
+        <field name="Package">0402</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0402FR-0710KL/311-10.0KLRTR-ND/726523</field>
+        <field name="Subs Allowed">Yes</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5732AADF</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>KiCad_Footprints:ZF_SMD_NonPol_0402</footprint>
+      <fields>
+        <field name="Mfr">Yageo</field>
+        <field name="Mfr Part #">RC0402FR-0710KL</field>
+        <field name="Package">0402</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0402FR-0710KL/311-10.0KLRTR-ND/726523</field>
+        <field name="Subs Allowed">Yes</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5732B21C</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>KiCad_Footprints:ZF_SMD_NonPol_0402</footprint>
+      <fields>
+        <field name="Mfr">Yageo</field>
+        <field name="Mfr Part #">RC0402FR-0710KL</field>
+        <field name="Package">0402</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0402FR-0710KL/311-10.0KLRTR-ND/726523</field>
+        <field name="Subs Allowed">Yes</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5732BB20</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>KiCad_Footprints:ZF_SMD_NonPol_0402</footprint>
+      <fields>
+        <field name="Mfr">Yageo</field>
+        <field name="Mfr Part #">RC0402FR-0710KL</field>
+        <field name="Package">0402</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0402FR-0710KL/311-10.0KLRTR-ND/726523</field>
+        <field name="Subs Allowed">Yes</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5732C1CB</tstamp>
+    </comp>
+    <comp ref="TP27">
+      <value>Test Point</value>
+      <footprint>KiCad_Footprints:ZF_CONN_1-2_pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5734FED0</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>KiCad_Footprints:ZF_SMD_NonPol_0402</footprint>
+      <fields>
+        <field name="Mfr">Yageo</field>
+        <field name="Mfr Part #">RC0402FR-0710KL</field>
+        <field name="Package">0402</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/yageo/RC0402FR-0710KL/311-10.0KLRTR-ND/726523</field>
+        <field name="Subs Allowed">Yes</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>574F8BF2</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_PUSH</value>
+      <footprint>KiCad_Footprints:ZF_SW_Momentary_KSEM31J</footprint>
+      <fields>
+        <field name="Mfr">C&amp;K Components</field>
+        <field name="Mfr Part #">KSEM31J LFS</field>
+        <field name="Package">J Lead</field>
+        <field name="Link">https://www.digikey.com/product-detail/en/c-k-components/KSEM31J-LFS/CKN10425TR-ND/3487184</field>
+        <field name="Subs Allowed">No</field>
+        <field name="RoHS">Yes</field>
+      </fields>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>574F8DC9</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="atmel" part="ATTINY48-MM">
+      <aliases>
+        <alias>ATTINY88-MM</alias>
+      </aliases>
+      <description>QFN/MLF28, 4k Flash, 256B SRAM, 64B EEPROM</description>
+      <docs>http://www.atmel.com/Images/doc8008.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ATTINY48-MM</field>
+        <field name="Footprint">MLF/QFN28</field>
+      </fields>
+      <pins>
+        <pin num="1" name="(PCINT19/INT1)PD3" type="BiDi"/>
+        <pin num="2" name="(PCINT20/T0)PD4" type="BiDi"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="(PCINT6/CLKI)PB6" type="BiDi"/>
+        <pin num="6" name="(PCINT7)PB7" type="BiDi"/>
+        <pin num="7" name="(PCINT21/T1)PD5" type="BiDi"/>
+        <pin num="8" name="(PCINT22/AIN0)PD6" type="BiDi"/>
+        <pin num="9" name="(PCINT23/AIN1)PD7" type="BiDi"/>
+        <pin num="10" name="(PCINT0/CLKO/ICP1)PB0" type="BiDi"/>
+        <pin num="11" name="(PCINT1/OC1A)PB1" type="BiDi"/>
+        <pin num="12" name="(PCINT2/OC1B/~SS~)PB2" type="BiDi"/>
+        <pin num="13" name="(PCINT3/MOSI)PB3" type="BiDi"/>
+        <pin num="14" name="(PCINT4/MISO)PB4" type="BiDi"/>
+        <pin num="15" name="(PCINT5/SCK)PB5" type="BiDi"/>
+        <pin num="16" name="AVCC" type="power_in"/>
+        <pin num="17" name="(PCINT15)PC7" type="BiDi"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="(PCINT8/ADC0)PC0" type="BiDi"/>
+        <pin num="20" name="(PCINT9/ADC1)PC1" type="BiDi"/>
+        <pin num="21" name="(PCINT10/ADC2)PC2" type="BiDi"/>
+        <pin num="22" name="(PCINT11/ADC3)PC3" type="BiDi"/>
+        <pin num="23" name="(PCINT12/SDA/ADC4)PC4" type="BiDi"/>
+        <pin num="24" name="(PCINT13/SCL/ADC5)PC5" type="BiDi"/>
+        <pin num="25" name="(PCINT14/~RESET~)PC6" type="BiDi"/>
+        <pin num="26" name="(PCINT16)PD0" type="BiDi"/>
+        <pin num="27" name="(PCINT17)PD1" type="BiDi"/>
+        <pin num="28" name="(PCINT18/INT0)PD2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector 01x01</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector 01x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky">
+      <description>Diode schottky</description>
+      <footprints>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>Diode_*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ZF" part="LD2980">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">LD2980</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="INH" type="input"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED_RABG">
+      <description>Common Anode RGB LED</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_RABG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RED_CATHODE" type="passive"/>
+        <pin num="2" name="COMMON_ANODE" type="passive"/>
+        <pin num="3" name="BLUE_CATHODE" type="passive"/>
+        <pin num="4" name="GREEN_CATHODE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R_PACK4">
+      <description>4 resistors Pack</description>
+      <fields>
+        <field name="Reference">RP</field>
+        <field name="Value">R_PACK4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="R4" type="passive"/>
+        <pin num="6" name="R3" type="passive"/>
+        <pin num="7" name="R2" type="passive"/>
+        <pin num="8" name="R1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="ZF">
+      <uri>/home/zach/Documents/NeuroTinker/NeuroBytes-v091/HARDWARE/ZF.lib</uri>
+    </library>
+    <library logical="atmel">
+      <uri>/usr/share/kicad/library/atmel.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="DEND5-SIG">
+      <node ref="R5" pin="1"/>
+      <node ref="TP15" pin="1"/>
+      <node ref="IC2" pin="24"/>
+      <node ref="P5" pin="4"/>
+    </net>
+    <net code="2" name="DEND5-TYPE">
+      <node ref="TP14" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="IC2" pin="7"/>
+      <node ref="P5" pin="3"/>
+    </net>
+    <net code="3" name="DEND3-SIG">
+      <node ref="P3" pin="4"/>
+      <node ref="RP2" pin="5"/>
+      <node ref="TP11" pin="1"/>
+      <node ref="IC2" pin="22"/>
+    </net>
+    <net code="4" name="DEND3-TYPE">
+      <node ref="P3" pin="3"/>
+      <node ref="TP10" pin="1"/>
+      <node ref="RP2" pin="6"/>
+      <node ref="IC2" pin="27"/>
+    </net>
+    <net code="5" name="Net-(D1-Pad3)">
+      <node ref="D1" pin="3"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D1-Pad4)">
+      <node ref="R2" pin="1"/>
+      <node ref="D1" pin="4"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="8" name="MODE">
+      <node ref="R6" pin="1"/>
+      <node ref="TP20" pin="1"/>
+      <node ref="IC2" pin="8"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="9" name="VCC">
+      <node ref="P2" pin="2"/>
+      <node ref="P5" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="P4" pin="2"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="P3" pin="2"/>
+      <node ref="P28" pin="2"/>
+      <node ref="P29" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="TP25" pin="1"/>
+    </net>
+    <net code="10" name="SCK">
+      <node ref="TP21" pin="1"/>
+      <node ref="IC2" pin="15"/>
+    </net>
+    <net code="11" name="LED-G">
+      <node ref="IC2" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="12" name="LED-R">
+      <node ref="R1" pin="2"/>
+      <node ref="IC2" pin="28"/>
+    </net>
+    <net code="13" name="MISO">
+      <node ref="TP27" pin="1"/>
+      <node ref="IC2" pin="14"/>
+    </net>
+    <net code="14" name="DEND2-SIG">
+      <node ref="P2" pin="4"/>
+      <node ref="TP9" pin="1"/>
+      <node ref="IC2" pin="21"/>
+      <node ref="RP1" pin="8"/>
+    </net>
+    <net code="15" name="DEND4-TYPE">
+      <node ref="RP2" pin="8"/>
+      <node ref="IC2" pin="6"/>
+      <node ref="P4" pin="3"/>
+      <node ref="TP12" pin="1"/>
+    </net>
+    <net code="16" name="DEND4-SIG">
+      <node ref="P4" pin="4"/>
+      <node ref="IC2" pin="23"/>
+      <node ref="RP2" pin="7"/>
+      <node ref="TP13" pin="1"/>
+    </net>
+    <net code="17" name="LED-B">
+      <node ref="R3" pin="2"/>
+      <node ref="IC2" pin="2"/>
+    </net>
+    <net code="18" name="ADJUST">
+      <node ref="R8" pin="1"/>
+      <node ref="IC2" pin="9"/>
+      <node ref="TP26" pin="1"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="19" name="+5V">
+      <node ref="D2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="TP24" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="IC2" pin="3"/>
+      <node ref="IC2" pin="16"/>
+    </net>
+    <net code="20" name="DEND1-SIG">
+      <node ref="IC2" pin="19"/>
+      <node ref="TP7" pin="1"/>
+      <node ref="P1" pin="4"/>
+      <node ref="RP1" pin="5"/>
+    </net>
+    <net code="21" name="DEND1-TYPE">
+      <node ref="IC2" pin="20"/>
+      <node ref="TP6" pin="1"/>
+      <node ref="RP1" pin="6"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="22" name="DEND2-TYPE">
+      <node ref="TP8" pin="1"/>
+      <node ref="IC2" pin="26"/>
+      <node ref="P2" pin="3"/>
+      <node ref="RP1" pin="7"/>
+    </net>
+    <net code="23" name="AXON2-TYPE">
+      <node ref="IC2" pin="10"/>
+      <node ref="TP18" pin="1"/>
+      <node ref="P29" pin="3"/>
+    </net>
+    <net code="24" name="AXON1-SIG">
+      <node ref="IC2" pin="12"/>
+      <node ref="P28" pin="4"/>
+      <node ref="TP17" pin="1"/>
+    </net>
+    <net code="25" name="AXON1-TYPE/MOSI">
+      <node ref="TP16" pin="1"/>
+      <node ref="P28" pin="3"/>
+      <node ref="IC2" pin="13"/>
+    </net>
+    <net code="26" name="AXON2-SIG">
+      <node ref="TP19" pin="1"/>
+      <node ref="P29" pin="4"/>
+      <node ref="IC2" pin="11"/>
+    </net>
+    <net code="27" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="28" name="GND">
+      <node ref="P1" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="P28" pin="1"/>
+      <node ref="P29" pin="1"/>
+      <node ref="IC2" pin="18"/>
+      <node ref="IC2" pin="4"/>
+      <node ref="R5" pin="2"/>
+      <node ref="RP2" pin="4"/>
+      <node ref="RP2" pin="2"/>
+      <node ref="RP2" pin="1"/>
+      <node ref="P3" pin="1"/>
+      <node ref="P2" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="RP2" pin="3"/>
+      <node ref="P5" pin="1"/>
+      <node ref="RP1" pin="4"/>
+      <node ref="RP1" pin="3"/>
+      <node ref="RP1" pin="2"/>
+      <node ref="RP1" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="TP23" pin="1"/>
+    </net>
+    <net code="29" name="RESET">
+      <node ref="IC2" pin="25"/>
+      <node ref="R7" pin="1"/>
+      <node ref="TP22" pin="1"/>
+    </net>
+    <net code="30" name="Net-(IC2-Pad17)">
+      <node ref="IC2" pin="17"/>
+    </net>
+    <net code="31" name="Net-(IC2-Pad5)">
+      <node ref="IC2" pin="5"/>
+    </net>
+  </nets>
+</export>

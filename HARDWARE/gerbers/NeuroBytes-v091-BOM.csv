@@ -1,0 +1,36 @@
+Title,
+Revision,
+Date,
+Generated,Thu 16 Jun 2016 06:22:55 PM CDT
+Company,
+Comment 1,
+Comment 2,
+Comment 3,
+Comment 4,
+Total Parts,50
+Total Unique Parts,15
+
+
+
+Ref,Qty,Value,Link,Mfr,Mfr Part #,Package,RoHS,Subs Allowed,
+C4 C2 ,2,100 nF,https://www.digikey.com/product-detail/en/taiyo-yuden/LMK105BJ104KV-F/587-1227-2-ND/930579,Taiyo Yuden,LMK105BJ104KV-F,0402,Yes,Yes
+C3 ,1,1 uF,https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107B7105KA-T/587-1242-2-ND/930594,Taiyo Yuden,LMK107B7105KA-T,0603,Yes,Yes
+C5 ,1,2.2 uF,https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107BJ225KA-T/587-1253-2-ND/930605,Taiyo Yuden,LMK107BJ225KA-T,0603,Yes,Yes
+C1 ,1,10 uF,https://www.digikey.com/product-detail/en/kemet/T491A106K010AT/399-3684-2-ND/818545,Kemet,T491A106K010AT,1206,Yes,Yes
+D1 ,1,RGB LED CA,https://www.digikey.com/product-detail/en/sunled/XZMDKCBDDG45S-9/1497-1257-1-ND/5169746,SunLED,XZMDKCBDDG45S-9,4-PLCC  bottom mtg,Yes,No
+D2 ,1,D_Schottky,https://www.digikey.com/product-detail/en/panasonic-electronic-components/DB2S30800L/DB2S30800LTR-ND/2325946,Panasonic Electric Components,DB2S30800L,SC-79,Yes,Yes
+IC2 ,1,ATTINY88-MM,https://www.digikey.com/product-search/en?keywords=ATTINY88-MMHR-ND,Atmel,ATTINY88-MMHR,28-VQFN (4x4),Yes,No
+IC1 ,1,LD2980ABM50TR,https://www.digikey.com/product-detail/en/stmicroelectronics/LD2980ABM50TR/497-1518-2-ND/591619,STMicroelectronics,LD2980ABM50TR,SOT-23-5,Yes,No
+P1 P2 P3 P4 P5 P28 P29 ,7,JST GH 4-position,https://www.digikey.com/product-detail/en/jst-sales-america-inc/SM04B-GHS-TB(LF)(SN)-/455-1566-2-ND/807788,JST,SM04B-GHS-TB(LF)(SN)-,JST GH,Yes,No
+R1 ,1,150,https://www.digikey.com/product-detail/en/yageo/RC0402FR-07150RL/311-150LRCT-ND/729490,Yageo,RC0402FR-07150RL,0402,Yes,Yes
+R2 R3 ,2,100,https://www.digikey.com/product-detail/en/yageo/RC0402FR-07100RP/YAG1248CT-ND/4935363,Yageo,RC0402FR-07100RP,0402,Yes,Yes
+R4 R5 R6 R7 R8 ,5,10k,https://www.digikey.com/product-detail/en/yageo/RC0402FR-0710KL/311-10.0KLRTR-ND/726523,Yageo,RC0402FR-0710KL,0402,Yes,Yes
+RP1 RP2 ,2,10k (x4),https://www.digikey.com/product-detail/en/cts-resistor-products/741C083103JP/741C083103JPCT-ND/1124652,CTS Resistor Products,741C083103JP,0804,Yes,Yes
+SW1 SW2 ,2,SW_PUSH,https://www.digikey.com/product-detail/en/c-k-components/KSEM31J-LFS/CKN10425TR-ND/3487184,C&K Components,KSEM31J LFS,J Lead,Yes,No
+TP24 TP21 TP22 TP23 TP6 TP7 TP8 TP9 TP10 TP11 TP12 TP13 TP14 TP15 TP16 TP17 TP18 TP19 TP25 TP20 TP26 TP27 ,22,Test Point, , , , , , 
+
+
+
+
+BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
+Generated Thu 16 Jun 2016 06:22:55 PM CDT
