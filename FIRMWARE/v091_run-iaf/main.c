@@ -103,7 +103,10 @@ void getDendriteStatus(void) {
 
 void getDendriteType(void) {
 // updates d_var_type to xxxTTTTT, where TTTTT represents the input _type_ of the five dendrites (LSB = DEND, exc = 0, inh = 1)
-	uint8_t temp = 0;
+	uint8_t temp = d_var_type;
+	if (n_var_v >= n_con_v_rest) {
+		temp = 0;
+	}
 	temp |= ((PINC & (1<<PC1)) >> 1);
 	temp |= ((PIND & (1<<PD0)) << 1);
 	temp |= ((PIND & (1<<PD1)) << 1);
