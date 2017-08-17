@@ -1,7 +1,7 @@
 #include <avr/io.h>
-#include <neuron.h>
-#include <HAL.h>
-#include <RGB_PWM.h>
+#include "neuron.h"
+#include "HAL.h"
+#include "RGB_PWM.h"
 
 
 void neuronInit(neuron_t *n)

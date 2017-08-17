@@ -39,26 +39,26 @@
 #include <avr/interrupt.h>
 #include <avr/pgmspace.h>
 
-#include <neuron.h>
-#include <HAL.h>
-#include <RGB_PWM.h>
-#include <bit_ops.h>
-#include <states.h>
+#include "neuron.h"
+#include "HAL.h"
+#include "RGB_PWM.h"
+//#include "bit_ops.h"
+#include "states.h"
 
 //#include <serial.h>
 
 // Timing Macros
 #define FIRE_RESET_TIME         200
-#define AXON_PULSE_DELAY_TIME   90
+#define AXON_PULSE_DELAY_TIME   100
 #define AXON_PULSE_LENGTH       100
 #define FIRE_LED_TIME           50
-#define DECAY_TIME_RESET        8    //8
+#define DECAY_TIME_RESET        6    //8
 
 #define MODE_BUTTON_HOLD_TIME   500
 
 int main(void)
 {
-	dendrite_magnitude_lookup[0] = 130;
+	dendrite_magnitude_lookup[0] = 140;
 	dendrite_magnitude_lookup[1] = 30;
 	dendrite_magnitude_lookup[2] = 60;
 	dendrite_magnitude_lookup[3] = 80;
@@ -86,6 +86,8 @@ int main(void)
     setupTimer();
 
     neuronInit(&neuron);
+
+	uint8_t i;
 
     for(;;){
 		if (ms_tick != 0){
@@ -143,7 +145,7 @@ int main(void)
 							neuron.state = FIRE;
 							neuron.fire_time = 0;
 							neuron.fire_potential = HYPERPOLARIZATION;
-							for (uint8_t i=0;i<5;i++){ // TODO: clear dendrites function
+							for (i=0;i<5;i++){ // TODO: clear dendrites function
 								neuron.dendrites[i].current_value = 0;
 								neuron.dendrites[i].state = OFF;
 								if (neuron.learning_state == HEBB){
@@ -243,7 +245,7 @@ int main(void)
 
 				neuron.potential = calcNeuronPotential(&neuron);
 				inhib_flag = 0;
-				for (uint8_t i=0; i<5; i++){
+				for (i=0; i<5; i++){
 					if (neuron.dendrites[i].type == INHIBITORY){
 						inhib_flag = 1;
 					}

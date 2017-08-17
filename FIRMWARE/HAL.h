@@ -11,7 +11,7 @@
 #define PIN_AXON_1  4
 #define PIN_AXON_2  6
 
-#include <neuron.h>
+#include "neuron.h"
 
 void systemInit(void);
 unsigned char readDendritePin(unsigned char dendrite_number, dendrite_types dendrite_type);

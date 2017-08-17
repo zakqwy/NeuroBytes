@@ -1,7 +1,7 @@
 #ifndef PWM_H_
 #define PWM_H_
 
-#include <neuron.h>
+#include "neuron.h"
 
 #define led_red_val led_val[0]
 #define led_green_val led_val[1]

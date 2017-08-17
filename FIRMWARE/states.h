@@ -9,7 +9,7 @@
 #ifndef STATES_H_
 #define STATES_H_
 
-#include <neuron.h>
+#include "neuron.h"
 
 void changeMode(neuron_t *n);
 void IAF_init(neuron_t *n);

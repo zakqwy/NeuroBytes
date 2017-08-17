@@ -6,7 +6,7 @@ TODO: add changing pin modes to HAL and change pin modes during inits.
 
 */
 #include <avr/io.h>
-#include <HAL.h>
+#include "HAL.h"
 //#include <RGB_PWM.h>
 
  void changeMode(neuron_t *n)

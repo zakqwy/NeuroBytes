@@ -1,7 +1,7 @@
 #include <avr/io.h>
-#include <RGB_PWM.h>
-#include <HAL.h>
-#include <neuron.h>
+#include "RGB_PWM.h"
+#include "HAL.h"
+#include "neuron.h"
 
 //uint8_t led_val[3] = {0,0,0};
 
@@ -24,6 +24,7 @@ void translateColor(int16_t v, neuron_modes mode)
 
 	switch (mode){
 		case IAF:
+/*	stoplight mode
 			if((v < -99)) {
 				led_red_val     = 24;
 				led_green_val   = 0;
@@ -53,31 +54,62 @@ void translateColor(int16_t v, neuron_modes mode)
 				led_blue_val    = 0;
 			}
 			break;
+*/
+		
+			if((v < -99)) {
+				led_red_val     = 0;
+				led_green_val   = 0;
+				led_blue_val    = 12;
+			}
+			else if ((v >= -99) && (v < 0)) {
+				temp = (-v / 8); //debug
+				led_red_val     = 0;
+				led_green_val   = 12 - temp;
+				led_blue_val    = temp;
+			}
+			else if (v == 0) {
+				led_red_val     = 0;
+				led_green_val   = 12;
+				led_blue_val    = 0;
+			}
+			else if ((v > 0) && (v <= 99)) {
+				temp = v / 8; //debug
+				led_red_val     = temp;
+				led_green_val   = 12 - temp; //debug
+				led_blue_val   = 0;
+			}
+			else if (v > 99) {
+				led_red_val     = 12;
+				led_green_val   = 0;
+				led_blue_val    = 0;
+			}
+			break;
+
 		case MOTOR:
 			if((v < -100)) {
 				led_red_val     = 0;
 				led_green_val   = 0;
-				led_blue_val    = 24;
+				led_blue_val    = 12;
 			}
 			else if ((v >= -100) && (v < 0)) {
-				temp = (-v / 4) - 1;
-				led_red_val     = 24 - temp;
+				temp = (-v / 8);
+				led_red_val     = 12 - temp;
 				led_green_val   = 0;
-				led_blue_val    = 24;
+				led_blue_val    = 12;
 			}
 			else if (v == 0) {
-				led_red_val     = 24;
+				led_red_val     = 12;
 				led_green_val   = 0;
-				led_blue_val    = 24;
+				led_blue_val    = 12;
 			}
 			else if ((v > 0) && (v <= 99)) {
-				temp = v / 4;
-				led_red_val     = 24;
+				temp = v / 8;
+				led_red_val     = 12;
 				led_green_val   = 0;
-				led_blue_val   = 24 - temp;
+				led_blue_val   = 12 - temp;
 			}
 			else if (v > 99) {
-				led_red_val     = 24;
+				led_red_val     = 12;
 				led_green_val   = 0;
 				led_blue_val    = 0;
 			}
@@ -86,28 +118,28 @@ void translateColor(int16_t v, neuron_modes mode)
 			if((v < -100)) {
 				led_red_val     = 0;
 				led_green_val   = 0;
-				led_blue_val    = 24;
+				led_blue_val    = 12;
 			}
 			else if ((v >= -100) && (v < 0)) {
-				temp = -v / 4;
+				temp = -v / 8;
 				led_red_val     = 0;
-				led_green_val   = 24 - temp;
+				led_green_val   = 12 - temp;
 				led_blue_val    = temp;
 			}
 			else if (v == 0) {
-				led_red_val     = 24;
+				led_red_val     = 12;
 				led_green_val   = 0;
 				led_blue_val    = 0;
 			}
 			else if ((v > 0) && (v <= 600)) {
-				temp = v / 24;
-				led_red_val     = 24 - temp;
+				temp = v / 8;
+				led_red_val     = 12 - temp;
 				led_green_val   = temp;
 				led_blue_val   = 0;
 			}
 			else if (v > 600) {
 				led_red_val     = 0;
-				led_green_val   = 24;
+				led_green_val   = 12;
 				led_blue_val    = 0;
 			}
 			break;

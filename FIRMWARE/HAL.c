@@ -1,9 +1,9 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include <avr/pgmspace.h>
-#include <HAL.h>
-#include <bit_ops.h>
-#include <neuron.h>
+#include "HAL.h"
+#include "bit_ops.h"
+#include "neuron.h"
 
 volatile unsigned char ms_tick;
 static unsigned char timer_tick = 0;
