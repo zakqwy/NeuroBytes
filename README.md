@@ -1,3 +1,9 @@
+## NOTE
+This repository is no longer actively maintained or current. This clean break helped us do many things, such as:
+- switch microcontroller platforms from ATtiny88 (8-bit AVR) to STM32L0s (ARM Cortex M0+)
+- move from a single-board-fits-all strategy to specific boards that represent different types of biological elements
+- change signaling from a simple 200ms pulse to a flexible mesh networking protocol
+The new repositories can be found under the NeuroTinker GitHub account, found here: https://github.com/neurotinker.
 # NeuroBytes
 Official repo for NeuroBytes, an open-source hardware neuron simulator created by NeuroTinker, LLC. An exhuastive history of the project can be found at https://hackaday.io/project/3339-neurobytes, while more information on the company and people behind the project can be found at https://www.neurotinker.com. A good source for up-to-date and interesting pictures are the various NeuroTinker social media accounts: https://www.instagram.com/neurotinker, https://www.twitter.com/neurotinker, and https://www.facebook.com/neurotinker.
 ## Background
